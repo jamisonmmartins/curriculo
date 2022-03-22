@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.principal{
+    width: 60%;
+    max-width:900px;
+    margin: 1.8em auto 0;
+}
+
+/*div header*/
+header{
+    max-width:600px;
+    margin:0 auto 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .foto{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgb(54, 54, 54);
+}
+
+header nav{
+    margin: 0 auto;
+    width: 80%;
+    display:flex;
+    justify-content: space-around;
+}
+
+header h1{
+    margin-top: 0.625em;
+    margin-bottom: 0.125em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+header h2{
+    margin-top: 2px;
+    text-transform: capitalize;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.resumo{
+   text-align: justify;
+   margin: 2em; 
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/*Logos das linguagens de desenvolvimento*/
+.linguagens{
+    justify-content: space-around;
+    text-align: center;
+    margin: 2px auto;
+}
+
+.linguagens img{
+    margin: 10px auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.exp-pro{
+    padding-left:0px;
+}
+
+/* lista de experiencias profissionais*/
+.ep{
+    background-color: #e6e6e646;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px 10px 15px gray;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+li h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+
+    /*margem e padding*/
+    margin: 0 auto;
+}
+
+li h5{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size:1em;
+    text-align: justify;
+
+    /*margem e padding*/
+    margin: 0 auto;
+}
+
+
+li p{ /*Descrição das experiências*/
+    /* texto */
+    font-weight: 300;
+    text-align: justify;
+    
+    /*margem e padding*/
+    margin: 0.3125em auto 0;
+}
+
+/*Rodapé*/
+footer{
+    /*texto*/
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    
+    margin-top: 1.875em;
+    padding: ;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 0.3em;
+}
+
+footer address{
+    margin: 0 auto 0.625em;
+    letter-spacing: 0.125em;
+}
+
+footer address a{
+    color: black;
+}
+
+footer a{
+    color: #ebebeb;
+    font-style: italic;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:rgba(0, 0, 0, 0.514);
+    text-decoration: none;  
+}
