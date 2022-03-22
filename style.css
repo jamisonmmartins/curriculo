@@ -14,11 +14,10 @@ body{
 
 /*div header*/
 header{
-    max-width: 400px;
+    max-width: 300px;
     margin:0 auto;
     text-align: center;
     text-decoration: none;
-    background-color: aqua;
 }
 
 header .foto{
@@ -125,6 +124,7 @@ footer{
     text-align: center;
     font-weight: 400;
     font-size: 1em;
+    line-height: 1.5em;
     
     margin-top: 1.875em;
     padding: 2em;
@@ -133,7 +133,7 @@ footer{
 }
 
 footer address{
-    margin: 0 auto 0.625em;
+    margin: 0 auto 0.8em;
     letter-spacing: 0.125em;
 }
 
