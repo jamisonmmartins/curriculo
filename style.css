@@ -33,7 +33,7 @@ header nav {
     margin: 0 auto;
     width: 40%;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 header h1 {
@@ -145,13 +145,13 @@ footer {
 }
 
 .footer {
+    margin: 0 auto;
+    min-width:300px;
+    max-width: 900px;
     justify-content: space-evenly;
     line-height: 2rem;
     display: flex;
-}
-
-.footer a{
-    display: inline-block;
+    flex-wrap: nowrap;
 }
 
 footer address{
