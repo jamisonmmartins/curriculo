@@ -9,7 +9,7 @@ body{
 .principal{
     padding: 0 2rem;
     margin: 2em auto;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 900px;
     text-align: justify; 
 }
@@ -31,7 +31,8 @@ header .foto {
 
 header nav {
     margin: 0 auto;
-    width: 40%;
+    min-width: 200px;
+    max-width: 500px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -50,11 +51,11 @@ header h2 {
 
 header a {
     text-decoration: none;
-    color: rgb(68, 68, 68);
+    color: rgb(11, 11, 11);
 }
 
 header a:hover{
-    color: black;
+    color: rgb(74, 70, 70);
 }
 
 h3 {
@@ -136,17 +137,18 @@ footer {
     text-align: center;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.5em;
     color: #ebebeb;
+    
+    min-width: 256px;
     margin-top: 1.875em;
     padding: 2em;
     background-color: grey;
-    border-radius: 0.3em;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .footer {
     margin: 0 auto;
-    min-width:300px;
+    min-width:250px;
     max-width: 900px;
     justify-content: space-evenly;
     line-height: 2rem;
