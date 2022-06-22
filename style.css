@@ -2,9 +2,8 @@
 
 body{
     margin: 0;
-    background-color: #e0e0e0;
+    background-color: #f1f1f1;
     font-family: 'Montserrat', sans-serif; 
-    min-width: 400px;
 }
 
 .principal{
@@ -127,20 +126,22 @@ li > p{ /*Descrição das experiências*/
 }
 
 /*Rodapé*/
-footer{
+footer {
     /*texto*/
     text-align: center;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 1rem;
     line-height: 1.5em;
-    
+    color: #ebebeb;
     margin-top: 1.875em;
     padding: 2em;
-    background-color: rgba(128, 128, 128, 0.623);
+    background-color: grey;
     border-radius: 0.3em;
 }
-.footer img{
-    width: 20px;
+
+.footer a{
+    display: inline-block;
+    margin: 0 0.75rem;
 }
 
 footer address{
@@ -148,17 +149,13 @@ footer address{
     letter-spacing: 0.125em;
 }
 
-footer address a{
-    color: black;
-}
-
-footer a{
+footer a {
     color: #ebebeb;
     font-style: italic;
     text-decoration: none;
 }
 
 footer a:hover{
-    color:rgba(0, 0, 0, 0.514);
+    color:rgba(0, 0, 0, 0.811);
     text-decoration: none;  
 }
