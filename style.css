@@ -3,20 +3,19 @@
 body{
     margin: 0;
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif; 
-    min-width: 320px;   
+    font-family: 'Montserrat', sans-serif;   
 }
 
 .principal{
-    min-height: 320px;
+    padding: 0 0.75rem;
+    margin: 2em auto;
+    min-width: 300px;
     max-width: 900px;
-    margin: 2em auto 0;
 }
 
 /*div header*/
 header {
-    position: relative;
-    max-width: 300px;
+    max-width: 900px;
     margin:0 auto;
     text-align: center;
     text-decoration: none;
@@ -31,7 +30,7 @@ header .foto {
 
 header nav {
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
     display:flex;
     justify-content: space-around;
 }
@@ -79,6 +78,10 @@ ul{
 
 ul.exp-pro{
     padding-left:0px;
+}
+
+.exp-pro h3, .exp-pro h4{
+    margin-bottom: 0.5rem;
 }
 
 /* lista de experiencias profissionais*/
