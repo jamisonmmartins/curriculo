@@ -2,8 +2,9 @@
 
 body{
     margin: 0;
-    background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;   
+    background-color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif; 
+    text-align: justify;  
 }
 
 .principal{
@@ -16,7 +17,7 @@ body{
 /*div header*/
 header {
     max-width: 900px;
-    margin:0 auto;
+    margin:0 auto 2rem;
     text-align: center;
     text-decoration: none;
 }
@@ -51,13 +52,9 @@ header a {
     text-decoration: none;
 }
 
-.resumo {
-   text-align: justify;
-   margin-top: 2em; 
-}
-
 h3 {
     text-transform: uppercase;
+    text-align: left;
 }
 
 /*Logos das linguagens de desenvolvimento*/
@@ -76,15 +73,20 @@ ul{
     margin: 0;
 }
 
-ul.exp-pro{
-    padding-left:0px;
-}
-
-.exp-pro h3, .exp-pro h4{
-    margin-bottom: 0.5rem;
+ul > li {
+    text-align: left;
 }
 
 /* lista de experiencias profissionais*/
+ul.exp-pro{
+    padding-left:0px;
+    margin-bottom: 3rem;
+}
+
+.exp-pro h4, .exp-pro h5{
+    margin-bottom: 0.5rem;
+}
+
 .ep{
     background-color: #e6e6e646;
     border-radius: 20px;
@@ -94,7 +96,7 @@ ul.exp-pro{
     list-style-type: none;
 }
 
-li h4{
+li > h4{
     text-transform: uppercase;
     font-weight: 400;
     text-align: left;
@@ -103,7 +105,7 @@ li h4{
     margin: 0 auto;
 }
 
-li h5{
+li > h5{
     text-transform: capitalize;
     font-weight: 400;
     font-size:1em;
@@ -114,7 +116,7 @@ li h5{
 }
 
 
-li p{ /*Descrição das experiências*/
+li > p{ /*Descrição das experiências*/
     /* texto */
     font-weight: 300;
     text-align: justify;
@@ -133,7 +135,7 @@ footer{
     
     margin-top: 1.875em;
     padding: 2em;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.623);
     border-radius: 0.3em;
 }
 .footer img{
